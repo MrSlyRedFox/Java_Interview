@@ -1,0 +1,9 @@
+abstract class Car {
+    public Engine engine;
+    private String color;
+    private String name;
+}
+1)Поле Engine не приватное.
+2)class Lorry не реализовал абстрактный метод open() из абстрактного класса Car и не указана
+аннотация @Override над методами 
+3)Метода open() в классе LightWeighCar должен иметь модификатор доступа public.
